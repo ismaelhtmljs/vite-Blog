@@ -1,0 +1,53 @@
+main{
+    /* background-color: green; */
+    max-width: 90%;
+    display: flex;
+    margin: 20px auto;
+    padding: 15px;
+    /* box-shadow: 1px 0px 1px 1px #baba3d; */
+}
+
+p{
+    font-size: 1.25rem;
+}
+
+.titulo_post1 h1{
+    font-size: 39px;
+}
+
+.titulo_post1{
+    padding: 10px;
+}
+
+.post2{
+    margin-top: 2%;
+}
+
+.button_documentation {
+    background: linear-gradient(135deg, #646cff, #3c3cde); /* Colores de Vite */
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.button_documentation:hover {
+    transform: translateY(-2px); /* Efecto de flotación */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+    background: linear-gradient(135deg, #3c3cde, #646cff); /* Cambiar colores al pasar el mouse */
+}
+
+.button_documentation:active {
+    transform: translateY(1px); /* Efecto de presión */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra reducida */
+}
+
+.button_documentation:focus {
+    outline: 2px solid #646cff; /* Contorno accesible */
+    outline-offset: 4px;
+}

@@ -1,0 +1,211 @@
+/* Mediaqueri 320px */
+@media screen and (max-width: 320px){
+    p{
+        font-size: 16px;
+    }
+    main{
+        max-width: 100%;
+    }
+    header{
+        max-width: 100%;
+    }
+    
+    /* Organización del título y contenido */
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    /* Título con icono en la misma línea */
+    .titulo h1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    /* Frase y encuentranos online */
+    .Frase {
+        margin: 10px 0;
+    }
+    
+    /* Iconos sociales en línea */
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    
+    /* Menú de navegación */
+    .opcionesHeader ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .titulo_pag2 h1{
+        font-size: 35px;
+    }
+}
+
+/* mediaqueri 360px*/
+
+@media screen and (min-width: 360px) and (max-width: 424px){
+    p{
+        font-size: 17px;
+    }
+    main{
+        max-width: 100%;
+    }
+    header{
+        max-width: 100%;
+    }
+    
+    /* Organización del título y contenido */
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    /* Título con icono en la misma línea */
+    .titulo h1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    /* Frase y encuentranos online */
+    .Frase {
+        margin: 10px 0;
+    }
+    
+    /* Iconos sociales en línea */
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    
+    /* Menú de navegación */
+    .opcionesHeader ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+    }   
+}
+
+/* mediaqueri 420px */
+@media screen and (min-width: 425px) and (max-width: 480px){
+    p{
+        font-size: 18px;
+    }
+    main{
+        max-width: 100%;
+    }
+    header{
+        max-width: 100%;
+    }
+    
+    /* Organización del título y contenido */
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    /* Título con icono en la misma línea */
+    .titulo h1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    /* Frase y encuentranos online */
+    .Frase {
+        margin: 10px 0;
+    }
+    
+    /* Iconos sociales en línea */
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    
+    /* Menú de navegación */
+    .opcionesHeader ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+    }   
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px){
+    p{
+        font-size: 18px;
+    }
+    main{
+        max-width: 100%;
+    }
+    header{
+        max-width: 100%;
+    }
+    
+    /* Organización del título y contenido */
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    /* Título con icono en la misma línea */
+    .titulo h1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    /* Frase y encuentranos online */
+    .Frase {
+        margin: 10px 0;
+    }
+    
+    /* Iconos sociales en línea */
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    
+    /* Menú de navegación */
+    .opcionesHeader ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+    }   
+}
