@@ -6,3 +6,38 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Estructura del proyecto
+```
+📦 vite-project
+├── node_modules/
+├── public/
+│ └── vite.svg
+├── src/
+│ ├── assets/
+│ │ └── React.svg
+│ ├── components/
+│ │ ├── Footer.tsx
+│ │ ├── Header.tsx
+│ │ └── LoadingScreen.tsx
+│ ├── css/
+│ │ ├── vite-index.css
+│ │ ├── mediaqueri.css
+│ │ └── loadingScreen.css
+│ ├── pages/
+│ │ ├── Documentation.tsx
+│ │ ├── Home.tsx
+│ │ ├── ViteTest.tsx
+│ │ └── WhatIsVite.tsx
+│ ├── App.tsx
+│ └── main.tsx
+├── .eslintrc.cjs
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+```
